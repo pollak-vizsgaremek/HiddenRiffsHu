@@ -1,3 +1,0 @@
-viszgauser:YT53rn30gwYgJX5KDUPTe
-Host: mail.chlkrisz.hu:27017
-db: viszga
