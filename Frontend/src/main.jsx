@@ -16,8 +16,13 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/fooldal" element={<MainPage />} />
+        <Route path="/" element={<MainPage />} />
         <Route path="/regisztracio" element={<RegisztracioPage />} />
+        <Route path="/felvetel" element={<FelvetelPage />} />
+        <Route path="/mufajok" element={<MufajokPage />} />
+        <Route path="/zenek" element={<ZenekPage />} />
+        <Route path="/bandak" element={<BandakPage />} />
+        <Route path="/albumok" element={<AlbumokPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
