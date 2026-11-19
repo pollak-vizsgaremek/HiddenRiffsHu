@@ -3,3 +3,43 @@
 * {
   font-family: "jaini Purva", serif;
 }
+
+body {
+  background-color: #312238;
+  width: 100vh;
+  height: 100vw;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 630px;
+  background: linear-gradient(0deg, #312238, black);
+  margin: 0;
+}
+
+.szoveg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 64px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.cim {
+  font-size: 128px;
+  color: #e1ade5;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+  align-self: center;
+}
+
+.szlogen {
+  font-size: 32px;
+  color: #d0bdcf;
+  align-self: center;
+}

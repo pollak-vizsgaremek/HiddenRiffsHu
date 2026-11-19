@@ -27,6 +27,7 @@ export default function Zene_Felvétel() {
 
   return (
     <div>
+      <div className="navbar"></div>
       <form action="">
         <h3>Zene Ajánlás</h3>
         <input

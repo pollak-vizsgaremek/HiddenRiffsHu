@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Zene_Elfogadás() {
   return (
-    <div>Zene_Elfogadás</div>
-  )
+    <div>
+      <div className="navbar"></div>
+      <h3>Zene_Elfogadás</h3>
+    </div>
+  );
 }

@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Albumok() {
   return (
-    <div>Albumok</div>
-  )
+    <div>
+      <div className="navbar"></div>
+      <h3>Albumok</h3>
+    </div>
+  );
 }

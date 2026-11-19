@@ -26,6 +26,7 @@ export default function Regisztáció() {
   return (
     <>
       <div>
+        <div className="navbar"></div>
         <h3>Regisztráció</h3>
         <input
           id="username"

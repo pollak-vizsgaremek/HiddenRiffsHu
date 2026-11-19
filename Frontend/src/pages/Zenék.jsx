@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Zenék() {
   return (
-    <div>Zenék</div>
-  )
+    <div>
+      <div className="navbar"></div>
+      <h3>Zenék</h3>
+    </div>
+  );
 }
