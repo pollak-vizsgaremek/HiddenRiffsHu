@@ -6,10 +6,11 @@ export default function Regisztáció() {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
 
+  //TODO: TÖRÖLD KI MAJD
   function submit() {
-    console.log(username);
-    console.log(password);
-    console.log(email);
+    console.log(username, "username");
+    console.log(password, "password");
+    console.log(email, "email");
 
     toast("Sikeres regisztáció", {
       theme: "dark",
